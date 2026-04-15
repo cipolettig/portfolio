@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Giovanni Cipoletti Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Syne:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <!-- NOISE OVERLAY -->
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- ═══ NAV ═══ -->
+  <nav id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">[</span>
+        <span class="logo-name">Giovanni Cipoletti</span>
+        <span class="logo-bracket">]</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about"><span class="nav-num">01.</span>About</a></li>
+        <li><a href="#documents"><span class="nav-num">02.</span>Documents</a></li>
+        <li><a href="#coursework"><span class="nav-num">03.</span>Coursework</a></li>
+        <li><a href="#contact"><span class="nav-num">04.</span>Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="navMobile">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#documents">Documents</a></li>
+        <li><a href="#coursework">Coursework</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══ HERO ═══ -->
+  <section id="hero">
+    <div class="hero-grid">
+      <div class="hero-left">
+        <p class="hero-eyebrow" data-reveal>
+          <span class="mono-tag">~/portfolio</span>
+          <span class="blink-cursor">▊</span>
+        </p>
+        <h1 class="hero-name" data-reveal>
+          <span class="name-line">GIOVANNI</span>
+          <span class="name-line accent-line">CIPOLETTI</span>
+        </h1>
+        <p class="hero-title" data-reveal>Cybersecurity and Forensics Student & Aspiring SOC Analyst</p>
+        <blockquote class="hero-brand" data-reveal>
+Cybersecurity and Forensics Major with a certificate in Forensic Investigation, graduating in May of 2026 with a cumulative 3.6 GPA. Played Varsity Football for all four years of undergraduate tenure at Waynesburg University.
+
+With an innate interest in cybercrime and security analysis, I have acquired my CompTIA Network+ certificate, and plan to complete my Security+ and CySA+ as soon as possible in order to pursue a career in the field of cybersecurity.
+
+Currently looking to get entry-level experience in either information technology or security operations, somewhere in the realm of or relating to employment as an IT Associate or SOC Analyst.
+
+        </blockquote>
+        <div class="hero-actions" data-reveal>
+          <a href="#documents" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+        </div>
+      </div>
+      <div class="hero-right" data-reveal>
+        <div class="photo-container">
+          <img src="assets/Profile.png" alt="Profile"/>       
+          <div class="photo-corner tl"></div>
+          <div class="photo-corner tr"></div>
+          <div class="photo-corner bl"></div>
+          <div class="photo-corner br"></div>
+        </div>
+        <div class="hero-stat-strip">
+          <div class="stat">
+            <span class="stat-val">2026</span>
+            <span class="stat-label">Class Of</span>
+          </div>
+          <div class="stat-div"></div>
+          <div class="stat">
+            <span class="stat-val">3.6</span>
+            <span class="stat-label">GPA</span>
+          </div>
+          <div class="stat-div"></div>
+          <div class="stat">
+            <span class="stat-val">1</span>
+            <span class="stat-label">Certification</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <span class="mono-small">scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══ ABOUT ═══ -->
+  <section id="about" class="section">
+    <div class="section-header" data-reveal>
+      <span class="section-num mono-tag">01.</span>
+      <h2 class="section-title">About Me</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-bio" data-reveal>
+        <p>I am a Senior at Waynesburg University majoring in Cybersecurity and Forensics. I'm drawn to the intersection of systems architecture and defensive security.</p>
+        <p>Throughout the coursework and internships I have worked through, I find myself particularly interested in the analysis of cyber threats and the development of robust security measures.</p>
+        <p>I am motivated through my extensive exposure to real-world cybersecurity challenges and the opportunity to apply my knowledge in practical settings.</p>
+        <p>For almost a decade now, I have been exposed to the internet and many communities surrounding it, both the bad and good, which has fueled my passion for understanding and protecting digital environments and the users accessing them.</p>
+      </div>
+      <div class="about-details" data-reveal>
+        <div class="detail-row">
+          <span class="detail-key">Education</span>
+          <span class="detail-val">B.S. Cybersecurity and Forensics · Waynesburg University · Expected May 2026</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-key">Specialization</span>
+          <span class="detail-val">Certificate in Forensic Investigation</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-key">Seeking</span>
+          <span class="detail-val">Full-Time · SOC Analyst / Entry-level cybersecurity roles · May 2026</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-key">Certifications</span>
+          <div class="detail-val">
+            <ul class="cert-list">
+              <li class="cert-item cert-complete">CompTIA Network+ <span class="cert-status">Completed</span></li>
+              <li class="cert-item cert-inprogress">CompTIA Security+ <span class="cert-status">In progress</span></li>
+              <li class="cert-item cert-inprogress">CompTIA CySA+ <span class="cert-status">In progress</span></li>
+              <li class="cert-item cert-notstarted">CISSP <span class="cert-status">Not Started</span></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="skills-block">
+          <p class="detail-key" style="margin-bottom: 14px;">Skills</p>
+          <div class="skill-tags">
+            <span class="tag">VMWare</span>
+            <span class="tag">Linux Distros</span>
+            <span class="tag">Tenable Nessus</span>
+            <span class="tag">Kali Linux Security Tools</span>
+            <span class="tag">Wireshark</span>
+            <span class="tag">Cisco Packet Tracer</span>
+            <span class="tag">Autopsy</span>
+            <span class="tag">Microsoft, Adobe, and Google Products</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ DOCUMENTS ═══ -->
+  <section id="documents" class="section">
+    <div class="section-header" data-reveal>
+      <span class="section-num mono-tag">02.</span>
+      <h2 class="section-title">Documents</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="doc-grid">
+
+      <!-- RESUME -->
+      <div class="doc-card" data-reveal>
+        <div class="doc-card-top">
+          <div class="doc-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+              <line x1="16" y1="13" x2="8" y2="13"/>
+              <line x1="16" y1="17" x2="8" y2="17"/>
+            </svg>
+          </div>
+          <span class="doc-type mono-tag">resume.pdf</span>
+        </div>
+        <h3 class="doc-title">Resume</h3>
+        <p class="doc-desc">My current resume, formatted for [target industry, e.g., cybersecurity / software engineering] roles. Updated [Month Year].</p>
+        <!-- INSTRUCTION: Upload your resume to Google Drive or Dropbox, get a shareable link, and paste it in the href below -->
+        <a href="[PASTE RESUME LINK HERE]" target="_blank" rel="noopener" class="doc-link">
+          <span>Open File</span>
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+      </div>
+
+      <!-- COVER LETTER -->
+      <div class="doc-card" data-reveal>
+        <div class="doc-card-top">
+          <div class="doc-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </div>
+          <span class="doc-type mono-tag">cover_letter.pdf</span>
+        </div>
+        <h3 class="doc-title">Cover Letter</h3>
+        <p class="doc-desc">A sample cover letter written for a [role type, e.g., Security Analyst] position, demonstrating my communication and professional writing skills.</p>
+        <!-- INSTRUCTION: Paste your cover letter shareable link -->
+        <a href="[PASTE COVER LETTER LINK HERE]" target="_blank" rel="noopener" class="doc-link">
+          <span>Open File</span>
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+      </div>
+
+      <!-- REFERENCE LIST -->
+      <div class="doc-card" data-reveal>
+        <div class="doc-card-top">
+          <div class="doc-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <span class="doc-type mono-tag">references.pdf</span>
+        </div>
+        <h3 class="doc-title">Reference List</h3>
+        <p class="doc-desc">Professional and academic references available upon request. [Optional — only include if you have one ready.]</p>
+        <!-- INSTRUCTION: Paste your reference list link, or delete this entire card -->
+        <a href="[PASTE REFERENCE LIST LINK HERE]" target="_blank" rel="noopener" class="doc-link">
+          <span>Open File</span>
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+      </div>
+
+      <!-- OPTIONAL EXTRA DOC — edit or delete -->
+      <div class="doc-card" data-reveal>
+        <div class="doc-card-top">
+          <div class="doc-icon">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
+              <rect x="3" y="3" width="18" height="18" rx="2"/>
+              <line x1="3" y1="9" x2="21" y2="9"/>
+              <line x1="9" y1="3" x2="9" y2="21"/>
+            </svg>
+          </div>
+          <!-- INSTRUCTION: Change filename to match your document -->
+          <span class="doc-type mono-tag">[filename.pdf]</span>
+        </div>
+        <!-- INSTRUCTION: Edit title and description. Or delete this whole card. -->
+        <h3 class="doc-title">[Optional Document]</h3>
+        <p class="doc-desc">INSTRUCTION: This is a placeholder for any additional document — recommendation letter, business card, certifications, etc. Edit or delete.</p>
+        <a href="[PASTE LINK HERE]" target="_blank" rel="noopener" class="doc-link">
+          <span>Open File</span>
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══ COURSEWORK ═══ -->
+  <section id="coursework" class="section">
+    <div class="section-header" data-reveal>
+      <span class="section-num mono-tag">03.</span>
+      <h2 class="section-title">Coursework</h2>
+      <div class="section-line"></div>
+    </div>
+    <!-- INSTRUCTION: Each .project-item is one project/paper/presentation.
+         Add, duplicate, or remove rows as needed.
+         For each:
+           - .project-num: display number (01, 02, etc.)
+           - h3: project/paper title
+           - .project-course: the course name
+           - p: 1–2 sentences — what was the goal? what does it demonstrate?
+           - .project-link href: paste a Google Drive / Slides / Docs link    -->
+    <div class="project-list">
+
+      <div class="project-item" data-reveal>
+        <div class="project-meta">
+          <span class="project-num">01</span>
+          <span class="project-course mono-tag">[Course Name]</span>
+        </div>
+        <div class="project-body">
+          <h3>[Project / Paper Title #1]</h3>
+          <p>[1–2 sentences. What was the goal? What did you create or analyze? What skill does it demonstrate? E.g., "A vulnerability assessment report for a simulated enterprise network, identifying attack vectors and recommending mitigations. Demonstrates applied knowledge of network security and technical writing."]</p>
+          <a href="[PASTE PROJECT LINK]" target="_blank" rel="noopener" class="project-link">
+            View Project
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="project-item" data-reveal>
+        <div class="project-meta">
+          <span class="project-num">02</span>
+          <span class="project-course mono-tag">[Course Name]</span>
+        </div>
+        <div class="project-body">
+          <h3>[Project / Paper Title #2]</h3>
+          <p>[Description — E.g., "Built a packet-filtering firewall in Python as part of a systems programming course. Implements stateless and stateful inspection rules with a CLI configuration interface. Demonstrates proficiency in Python, networking concepts, and software design."]</p>
+          <a href="[PASTE PROJECT LINK]" target="_blank" rel="noopener" class="project-link">
+            View Project
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="project-item" data-reveal>
+        <div class="project-meta">
+          <span class="project-num">03</span>
+          <span class="project-course mono-tag">[Course Name]</span>
+        </div>
+        <div class="project-body">
+          <h3>[Project / Paper Title #3]</h3>
+          <p>[Description — E.g., "A research paper analyzing the ethical and legal implications of zero-day vulnerability disclosure policies, comparing responsible disclosure vs. full-disclosure frameworks across three major case studies."]</p>
+          <a href="[PASTE PROJECT LINK]" target="_blank" rel="noopener" class="project-link">
+            View Project
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="project-item" data-reveal>
+        <div class="project-meta">
+          <span class="project-num">04</span>
+          <span class="project-course mono-tag">[Course Name]</span>
+        </div>
+        <div class="project-body">
+          <h3>[Project / Paper Title #4 — Optional]</h3>
+          <p>[Add another project here, or delete this entire .project-item block if you only have three. E.g., "A group consulting presentation delivering a digital security audit and recommendations for a local small business, covering password hygiene, endpoint protection, and phishing awareness."]</p>
+          <a href="[PASTE PROJECT LINK]" target="_blank" rel="noopener" class="project-link">
+            View Project
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══ CONTACT ═══ -->
+  <section id="contact" class="section section-contact">
+    <div class="section-header" data-reveal>
+      <span class="section-num mono-tag">04.</span>
+      <h2 class="section-title">Contact</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-intro" data-reveal>
+        <p class="contact-big">Let's<br><em>connect.</em></p>
+        <!-- INSTRUCTION: Replace with a short note about what you're looking for and inviting outreach -->
+        <p class="contact-sub">[2–3 sentences. E.g., "I'm actively seeking internship and entry-level opportunities in cybersecurity for Summer/Fall 20XX. Whether you have a role, a question, or just want to connect — I'd love to hear from you."]</p>
+      </div>
+      <div class="contact-links" data-reveal>
+
+        <!-- EMAIL -->
+        <a href="mailto:[YOUR EMAIL]" class="contact-item">
+          <div class="contact-item-icon">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </div>
+          <div>
+            <p class="contact-label">Email</p>
+            <!-- INSTRUCTION: Replace with your email -->
+            <p class="contact-value">[youremail@example.com]</p>
+          </div>
+        </a>
+
+        <!-- LINKEDIN -->
+        <a href="[YOUR LINKEDIN URL]" target="_blank" rel="noopener" class="contact-item">
+          <div class="contact-item-icon">
+            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+              <rect x="2" y="9" width="4" height="12"/>
+              <circle cx="4" cy="4" r="2"/>
+            </svg>
+          </div>
+          <div>
+            <p class="contact-label">LinkedIn</p>
+            <!-- INSTRUCTION: Replace with your LinkedIn profile URL -->
+            <p class="contact-value">[linkedin.com/in/yourname]</p>
+          </div>
+        </a>
+
+        <!-- GITHUB (optional — delete if not applicable) -->
+        <a href="[YOUR GITHUB URL]" target="_blank" rel="noopener" class="contact-item">
+          <div class="contact-item-icon">
+            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+            </svg>
+          </div>
+          <div>
+            <p class="contact-label">GitHub</p>
+            <!-- INSTRUCTION: Replace with your GitHub URL, or delete this whole block -->
+            <p class="contact-value">[github.com/yourhandle]</p>
+          </div>
+        </a>
+
+        <!-- LOCATION -->
+        <div class="contact-item" style="cursor: default;">
+          <div class="contact-item-icon">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+          </div>
+          <div>
+            <p class="contact-label">Location</p>
+            <!-- INSTRUCTION: Replace with your city/state, or "Open to Relocation" -->
+            <p class="contact-value">[City, State — or "Open to Relocation"]</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer>
+    <div class="footer-inner">
+      <!-- INSTRUCTION: Replace [YOUR NAME] and [YEAR] -->
+      <span class="mono-tag">© [YEAR] [YOUR NAME]</span>
+      <span class="footer-sep">—</span>
+      <span class="footer-note">Built with HTML · CSS · JS</span>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
